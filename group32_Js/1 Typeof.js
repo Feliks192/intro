@@ -4,7 +4,7 @@ let v3 = true
 let v4 = false
 let v5 = null
 let v6 = [10, 11, 44]
-let v7 = {"name": "Felix", "age":30, "salary":300}
+let v7 = { "name": "Felix", "age": 30, "salary": 300 }
 let v8 = "Hello"
 
 

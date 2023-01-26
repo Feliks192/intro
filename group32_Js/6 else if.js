@@ -6,22 +6,22 @@ let c2 = a < b
 let c3 = a == b
 let c4 = a != b
 
-if (c1){
+if (c1) {
     console.log("Result C1 = ", c1)
-} else if (c2){
+} else if (c2) {
     console.log("Result C2 = ", c2)
-} else if (c3){
+} else if (c3) {
     console.log("Result C3 = ", c3)
-} else if (c4){
+} else if (c4) {
     console.log("Result C4 = ", c4)
 } else {
-console.log("Other result")
+    console.log("Other result")
 }
 
 
-if (c2){
+if (c2) {
     console.log("Result C2 = ", c2)
-    if (c4){
+    if (c4) {
         console.log("Result C2 C4 = ", c4)
     }
 }

@@ -13,18 +13,18 @@ for (let i = 0; i <= count; i++) {
 }
 
 
-let codes = [100,200,300,400,500]
+let codes = [100, 200, 300, 400, 500]
 console.log("Array ==", codes)
 
-for (let i in codes){
+for (let i in codes) {
     console.log("I ==", i)
 }
 
 
-for (let i in codes){
+for (let i in codes) {
     console.log("I ==", codes[i])
-    
-    if (codes[i] == 300){
+
+    if (codes[i] == 300) {
         codes[i] = 700
     }
 }
